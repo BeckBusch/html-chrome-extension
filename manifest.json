@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "cursor change",
+  "description": "This extension changes your cursor to any image that you want",
   "version": "1.0",
 
   "browser_action": {
