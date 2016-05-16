@@ -10,24 +10,14 @@
         </style>
     </head>
 
-    <body>
-        <p>Welcome, use this popup to select your cursor image.
-            <br>You can only use images that are 128 pixels by 128 pixels.
-            <br>Paste the image url below.
-            <button onclick="myFunction()">Try it</button>
+    <body>Welcome, use this popup to select your cursor image.
+        <br>You can only use images that are 128 pixels by 128 pixels.
+        <br>Paste the image url below.
+        <button id="submit">Try it</button>
+        <script src="popup.js"></script>
 
-            <p id="demo"></p>
 
-            <script>
-                function myFunction() {
-                    var person = prompt("Please enter your name", "Harry Potter");
 
-                    if (person != null) {
-                        document.getElementById("demo").innerHTML =
-                            "Hello " + person + "! How are you today?";
-                    }
-                }
-            </script>
     </body>
 
 </html>
